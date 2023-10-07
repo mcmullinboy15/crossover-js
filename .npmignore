@@ -1,0 +1,7 @@
+examples/
+node_modules/
+tests/
+.gitignore
+package-lock.json
+logo.png
+sqlite3.db
