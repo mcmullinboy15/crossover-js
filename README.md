@@ -3,11 +3,11 @@
 ### Bridging the Gap between Frontend and Backend.
 
 [![npm version](https://img.shields.io/npm/v/crossover-js.svg?)](https://www.npmjs.org/package/crossover-js)
-[![install size](https://img.shields.io/badge/dynamic/json?url=https://packagephobia.com/v2/crossover-js.json?p=axios&query=$.install.pretty&label=install%20size&)](https://packagephobia.now.sh/result?p=axios)
-[![npm downloads](https://img.shields.io/npm/dm/crossover-js.svg?)](https://npm-stat.com/charts.html?package=crossover-js)
-[![Build status](https://img.shields.io/github/actions/workflow/status/mcmullinboy15/crossover/ci.yml?branch=v1.x&label=CI&logo=github&)](https://github.com/mcmullinboy15/crossover/actions/workflows/ci.yml)
-[![code coverage](https://img.shields.io/coveralls/mcmullinboy15/crossover.svg?)](https://coveralls.io/r/mcmullinboy15/crossover)
 [![License](https://img.shields.io/github/license/mcmullinboy15/crossover)](LICENSE)
+<!-- [![install size](https://img.shields.io/badge/dynamic/json?url=https://packagephobia.com/v2/crossover-js.json?p=axios&query=$.install.pretty&label=install%20size&)](https://packagephobia.now.sh/result?p=axios) -->
+<!-- [![npm downloads](https://img.shields.io/npm/dm/crossover-js.svg?)](https://npm-stat.com/charts.html?package=crossover-js) -->
+<!-- [![Build status](https://img.shields.io/github/actions/workflow/status/mcmullinboy15/crossover/ci.yml?branch=v1.x&label=CI&logo=github&)](https://github.com/mcmullinboy15/crossover/actions/workflows/ci.yml) -->
+<!-- [![code coverage](https://img.shields.io/coveralls/mcmullinboy15/crossover.svg?)](https://coveralls.io/r/mcmullinboy15/crossover) -->
 
   
 ## What is Crossover?
