@@ -49,7 +49,7 @@ Feel free to modify or expand upon this as needed!
 Installation is done using the
 [`npm install`](https://docs.npmjs.com/getting-started/installing-npm-packages-locally) command:
 ```console
-$ npm install crossover
+$ npm install crossover-js
 ```
 
 
