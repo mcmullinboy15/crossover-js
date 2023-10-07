@@ -242,8 +242,11 @@ api.listGames(id).then(games => {
 
 ## Benefits
 <b>Separation of Concerns:</b> By keeping the client and server in separate directories, you cleanly separate their responsibilities.
+
 <b>Centralized Configuration:</b> Having a single `crossover.config.js` at the root allows you to easily manage the relationship between the client and server.
+
 <b>Flexibility:</b> By allowing different configurations for different server frameworks (Express, Koa, etc.), you make `crossover` adaptable to various needs.
+
 <b>Explicit Function Exports:</b> By passing the server functions explicitly when generating the server, you have more control over what's exposed. It also makes the code self-documenting, as it's clear which functions are accessible from the client.
 
 ## License
