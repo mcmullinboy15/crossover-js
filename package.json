@@ -1,7 +1,7 @@
 {
   "name": "crossover-js",
   "description": "Bridging the Gap between Frontend and Backend.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "",
   "scripts": {
     "examples:client": "nodemon examples/client",
