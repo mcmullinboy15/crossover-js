@@ -24,7 +24,7 @@ api.pubGame({game_id: 3}, "client-msg-3");
 // database
 console.log("database");
 
-api.resetGamesTable().then(resp => {
+api.createGamesTable().then(resp => {
   console.log("resetGamesTable", resp)
 });
 
@@ -38,7 +38,7 @@ api.getGame({id: 1}).then(game => {
 
 api.listGames().then(games => {
   console.log("listGames", games);
-  
+
   // for (var game of games) {
   //   api.deleteGame({id: game.id}).then(resp => {
   //     console.log("deleteGame", resp)

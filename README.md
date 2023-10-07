@@ -132,7 +132,8 @@ module.exports = {
   routes: {
     gameComplete: {
         type: "javascript/function",
-        function: "gameComplete"
+        function: "gameComplete",
+        params: {'game_id': null}
     },
     // websockets
     subGame: {
@@ -146,20 +147,37 @@ module.exports = {
         // Usage: api.pubGame('12345', msg)
     },
     // database
-    createNewGame: {
-        method: 'insert', // or 'select' or 'query'
-        params: {'name': null, 'owner_id': null, 'isComplete': false}
-        // null: required, undefined: notrequired/nodefault or ?rejected?
+    createGamesTable: {
+      type: "db/postgres",
+      method: 'query',
+      query: 'CREATE TABLE IF NOT EXISTS {table} ( id INTEGER PRIMARY KEY AUTOINCREMENT, name VARCHAR(255), owner_id NUMBER NOT NULL, isComplete BOOLEAN );'
     },
-    getGame: {
-        method: 'select'
-        params: {'id': null}
+    createNewGame: {
+        type: "db/postgres",
+        method: 'insert',
+        params: {'name': null, 'owner_id': null, 'isComplete': false}
     },
     listGames: {
-        method: 'query'
-        query: 'SELECT * FROM {table} WHERE id = $id AND name LIKE "ASDF"'
+        type: "db/postgres",
+        method: 'select'
+    },
+    getGame: {
+        type: "db/postgres",
+        method: 'query',
+        query: 'SELECT * FROM {table} WHERE id = $id',
         params: {'id': null}
-
+    },
+    updateGameName: {
+        type: "db/postgres",
+        method: 'query',
+        query: 'UPDATE {table} SET name = $name',
+        params: {'name': null}
+    },
+    deleteGame: {
+        type: "db/postgres",
+        method: 'query',
+        query: 'DELETE FROM {table} WHERE id = $id',
+        params: {'id': null}
     }
   }
 };

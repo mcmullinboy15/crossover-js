@@ -39,7 +39,7 @@ module.exports = {
     },
 
     // database,
-    resetGamesTable: {
+    createGamesTable: {
       type: "db/postgres",
       method: 'query',
       query: 'CREATE TABLE IF NOT EXISTS {table} ( id INTEGER PRIMARY KEY AUTOINCREMENT, name VARCHAR(255), owner_id NUMBER NOT NULL, isComplete BOOLEAN );'
