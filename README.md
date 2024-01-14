@@ -53,7 +53,7 @@ $ npm install crossover-js
 
 ## Example
 
-### Possible Project Structure
+### Propsed Project Structure
 
 ```
 project-root/
