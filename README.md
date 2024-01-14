@@ -247,6 +247,26 @@ api.listGames(id).then(games => {
 
 <b>Explicit Function Exports:</b> By passing the server functions explicitly when generating the server, you have more control over what's exposed. It also makes the code self-documenting, as it's clear which functions are accessible from the client.
 
+
 ## License
 
 [MIT](LICENSE)
+
+
+## Future 
+
+### Code Generation
+1. I want to take any of the following Backend API types and auto generate the Frontend api/ module
+ - `swagger`
+ - `js:express`
+ - `golang:fiber`
+ - `golang:chai`
+ - `py:flask`
+ - `py:django`
+ - Others:
+   - `rust?`
+   - `c++`
+   - `php:*`
+   - `ruby:ruby-on-rails`
+   - `ruby:*`
+   - `c#`
