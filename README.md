@@ -18,9 +18,7 @@ With `crossover`, you define your functions once and call them anywhere. It abst
 
 ## Developers Welcome!!
 
-Dive in and experience the future of web development!
-
-Feel free to modify or expand upon this as needed!
+Dive in and feel free to modify or expand upon this as needed!
 
 
 ## Table of Contents
